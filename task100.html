@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Food Delivery Platform</title>
+
+<style>
+body{
+    font-family: Arial;
+    padding:20px;
+}
+
+button{
+    padding:10px;
+    cursor:pointer;
+    margin-left:10px;
+}
+
+table{
+    width:100%;
+    border-collapse:collapse;
+    margin-top:20px;
+}
+
+th,td{
+    border:1px solid black;
+    padding:10px;
+    text-align:center;
+}
+</style>
+</head>
+
+<body>
+
+<h2>Food Delivery Platform</h2>
+
+<h3>Menu</h3>
+
+<table>
+<thead>
+<tr>
+<th>ID</th>
+<th>Food</th>
+<th>Price (₹)</th>
+<th>Order</th>
+</tr>
+</thead>
+
+<tbody id="menuTable"></tbody>
+</table>
+
+<h3>Orders</h3>
+
+<table>
+<thead>
+<tr>
+<th>Order ID</th>
+<th>Food</th>
+<th>Quantity</th>
+</tr>
+</thead>
+
+<tbody id="orderTable"></tbody>
+</table>
+
+<script src="script.js"></script>
+
+</body>
+</html>
